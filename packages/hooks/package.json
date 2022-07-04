@@ -1,0 +1,21 @@
+{
+  "name": "@chromatictest/hooks",
+  "version": "0.1.0",
+  "description": "Shared React hooks for @chromatictest",
+  "repository": "https://github.com/josulliv101/chromatictest/tree/master/packages/hooks",
+  "main": "dist/chromatictest-hooks.cjs.js",
+  "module": "dist/chromatictest-hooks.esm.js",
+  "types": "./dist/chromatictest-hooks.cjs.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "dependencies": {
+    "@types/react": "^17.0.38",
+    "react": "^17.0.2",
+    "ts-debounce": "^4.0.0"
+  }
+}

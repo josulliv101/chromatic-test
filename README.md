@@ -1,1 +1,1 @@
-# chromatic-test
+# chromatictest
